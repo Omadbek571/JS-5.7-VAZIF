@@ -1,0 +1,61 @@
+:root {
+    --header-bg: #121251;
+    --header-text: #fff;
+
+    --card-bg: #121251;
+    --card-text: #fff;
+
+
+    --footer-bg: #121251;
+    --footer-text: #fff;
+
+}
+
+.light {
+    --header-bg: #fff;
+    --header-text: #121251;
+
+    --card-bg: #fff;
+    --card-text: #121251;
+
+
+    --footer-bg: #fff;
+    --footer-text: #121251;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    width: 95%;
+    margin-inline: auto;
+    padding-inline: 20px;
+}

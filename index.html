@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/one.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/btn.css">
+    <!-- Font Awesome kutubxonasi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>JS 5-OY 6-VAZIFAM</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-container">
+            <p>LOGO</p>
+            <nav>
+                <ul class="list">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <!-- Dark mode tugmasi -->
+            <button class="btn1" id="darkmodeBtn">Light</button>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <div class="container">
+            <!-- TO DO LIST -->
+            <div class="ToDoList">
+                <h1>TO DO APP</h1>
+                <div class="box1">
+                    <!-- Todo qo'shish uchun forma -->
+                    <form id="todoForm">
+                        <input id="searchInp" type="text" required placeholder="Enter todo...">
+                        <button id="submitBtn" class="btn1" type="submit">Click</button>
+                    </form>
+                </div>
+                <!-- Todo lar ro'yxati -->
+                <ul id="productsListt"></ul>
+            </div>
+            <section class="products">
+                <ul id="productsList">
+                    <li></li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- MODAL OYNASI -->
+        <div id="overlay" class="overlay hidden"></div>
+        <div id="modal" class="modal hidden" open="">
+            <form id="editForm">
+                <input id="editInp" type="text" placeholder="Enter todo...">
+                <button id="editBtn" class="btn1" type="submit">Edit</button>
+            </form>
+        </div>  
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-text1">
+                <p> TELEGRAM: <a href="https://t.me/helloUz_01">Omadbek</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript fayli -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
